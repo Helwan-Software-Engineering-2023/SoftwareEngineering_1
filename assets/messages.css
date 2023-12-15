@@ -1,0 +1,64 @@
+.messages{
+    margin-left: 15px;
+    position: absolute;
+}
+
+.items-message-error {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    height: 50px;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation-name: up-and-down;
+    animation-duration: 1s;
+    background-color: red;
+    font-size: 25px;
+}
+.items-message-sucess {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    height: 50px;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    animation-name: up-and-down;
+    animation-duration: 1s;
+    background-color: green;
+    font-size: 25px;
+}
+
+@keyframes up-and-down {
+    from {
+        opacity: 0;
+        transform: translateY(-71px);
+        -webkit-transform: translateY(-71px);
+        -moz-transform: translateY(-71px);
+        -ms-transform: translateY(-71px);
+        -o-transform: translateY(-71px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+#btn{
+    margin: 15px;
+    width: 50px;
+    position: relative;
+    height: 50px;
+    font-size: 30px;
+    left: 15px
+}
